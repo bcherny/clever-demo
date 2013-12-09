@@ -1,31 +1,6 @@
 cleverStatistics
 ================
 
-A neatly packaged mean computer for Clever's demo API.
-
-## Usage
-
-```coffee
-success = (result) -> ...
-error = (err) -> ...
-
-(cleverStatistics 'mean', ...).then success, error
-```
-
-## Supported statistics (see https://npmjs.org/package/summary)
-
-- min
-- max
-- mean
-- median
-- mode
-- sd
-- size
-- sum
-- variance
-
-## Source
-
 Imports
 
 	Clever = require 'clever'
