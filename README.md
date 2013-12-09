@@ -12,7 +12,7 @@ error = (err) -> ...
 (cleverStatistics 'median', 'mean', 'mode', ...).then success, error
 ```
 
-## Supported statistics (see https://npmjs.org/package/summary)
+## Supported statistics
 
 - min
 - max
@@ -23,6 +23,12 @@ error = (err) -> ...
 - size
 - sum
 - variance
+
+*(see https://npmjs.org/package/summary)*
+
+## Docs
+
+https://github.com/eighttrackmind/clover-demo/blob/master/cleverStatistics.coffee.md
 
 ## Testing
 
