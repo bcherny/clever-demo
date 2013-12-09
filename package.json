@@ -4,7 +4,7 @@
   "description": "Dev demo for Clever",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/nodeunit test"
   },
   "author": "Boris Cherny <boris@performancejs.com>",
   "license": "BSD",
@@ -12,5 +12,8 @@
     "clever": "~0.2.1",
     "when": "~2.7.0",
     "summary": "~0.3.0"
+  },
+  "devDependencies": {
+    "nodeunit": "~0.8.2"
   }
 }
