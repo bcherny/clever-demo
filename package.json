@@ -10,6 +10,7 @@
   "license": "BSD",
   "dependencies": {
     "clever": "~0.2.1",
-    "when": "~2.7.0"
+    "when": "~2.7.0",
+    "summary": "~0.3.0"
   }
 }

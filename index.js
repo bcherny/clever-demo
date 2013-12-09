@@ -3,7 +3,7 @@ var cleverStatistics;
 
 cleverStatistics = require('./cleverStatistics');
 
-(cleverStatistics()).then(function(stats) {
+(cleverStatistics('median', 'mean', 'mode')).then(function(stats) {
   return console.log(stats);
 }, function(err) {
   return console.error(err);

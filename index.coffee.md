@@ -5,7 +5,7 @@ Imports
 
 Compute!
 
-	(do cleverStatistics).then (stats) ->
+	(cleverStatistics 'median', 'mean', 'mode').then (stats) ->
 		console.log stats
 	, (err) ->
 		console.error err
