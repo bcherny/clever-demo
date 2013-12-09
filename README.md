@@ -1,6 +1,8 @@
 cleverStatistics
 ================
 
+[![Build Status](https://travis-ci.org/eighttrackmind/clever-demo.png)](https://travis-ci.org/eighttrackmind/clever-demo.png)
+
 A neatly packaged statistics computer for Clever's demo API.
 
 ## Usage
