@@ -15,5 +15,9 @@
   },
   "devDependencies": {
     "nodeunit": "~0.8.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eighttrackmind/clever-demo.git"
   }
 }
