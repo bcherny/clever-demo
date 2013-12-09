@@ -12,18 +12,29 @@ Instantiate clever
 
 	clever = new Clever config.key
 
+Setup
+
+	done = (err, sections) ->
+
+		if err
+			throw new Error err
+
+		mean = average sections
+
+		console.log mean
+
+	average = (sections) ->
+
+		count = sections.length
+
+		sum = sections
+		.map (section) ->
+			(do section.toJSON).students.length
+		.reduce (a, b) ->
+			a + b
+
+		sum/count
+
 Query
 
-	stream = clever.Sections
-	.find()
-	.stream()
-
-	average = 0
-
-	stream.on 'data', (section) ->
-
-		console.log section
-
-	stream.on 'end', ->
-
-		console.log 'loaded!'
+	clever.Section.find {}, done
