@@ -9,6 +9,7 @@
   "author": "Boris Cherny <boris@performancejs.com>",
   "license": "BSD",
   "dependencies": {
-    "clever": "~0.2.1"
+    "clever": "~0.2.1",
+    "when": "~2.7.0"
   }
 }
