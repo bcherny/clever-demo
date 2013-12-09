@@ -14,4 +14,16 @@ Instantiate clever
 
 Query
 
-	
+	stream = clever.Sections
+	.find()
+	.stream()
+
+	average = 0
+
+	stream.on 'data', (section) ->
+
+		console.log section
+
+	stream.on 'end', ->
+
+		console.log 'loaded!'
