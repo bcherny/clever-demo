@@ -1,0 +1,11 @@
+{
+  "name": "clever-demo",
+  "version": "0.0.0",
+  "description": "Dev demo for Clever",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Boris Cherny <boris@performancejs.com>",
+  "license": "BSD"
+}
