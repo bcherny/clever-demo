@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Boris Cherny <boris@performancejs.com>",
-  "license": "BSD"
+  "license": "BSD",
+  "dependencies": {
+    "clever": "~0.2.1"
+  }
 }
